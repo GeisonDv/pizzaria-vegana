@@ -8,10 +8,11 @@ Variables
 ----------------*/
 :root {
     --main-color: #eaa023;
-    --dark: #e0381f;
-    --dark-light: #e5422d;
+    --dark: #C4E089;
+    --dark-light: #C4E089;
     --white: #fff;
     --white-light: #c8c8c8;
+    --roxo: #662C7D;
     --shadow:0 0 15px rgba(0, 0, 0,0.25);
     --cursive-font: 'Dancing Script', cursive;
     scroll-behavior: smooth;
@@ -101,6 +102,7 @@ section {
 .section-title h2 {
     font-size: 35px;
     text-transform: capitalize;
+    color: var(--roxo);
 }
 .section-title h2::before {
     content: attr(data-title);
@@ -367,6 +369,7 @@ Page Loader
 }
 .about-text p {
     margin: 0 0 15px;
+    color: var(--white)
 }
 .about-text .btn {
     margin: 15px 0 0;
@@ -515,6 +518,7 @@ Testimonials Section
     display: block;
     font-size: 14px;
     text-transform: capitalize;
+    color: var(--main-color);
 }
 .testi-author img {
     max-width: 60px;
@@ -528,6 +532,7 @@ Testimonials Section
 }
 .testi-item p {
     margin: 15px 0;
+    color: var(--white);
 }
 .testi-item .ratings i {
     font-size: 16px;
